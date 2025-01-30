@@ -14,6 +14,7 @@ import PostListPage from './routes/PostListPage.jsx';
 import Write from './routes/Write.jsx';
 import LoginPage from './routes/LoginPage.jsx';
 import RegisterPage from './routes/RegisterPage.jsx';
+import SinglePostPage from './routes/SinglePostPage.jsx';
 
 const router = createBrowserRouter([
 
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
 
   {
     path:'/:slug',
-    element: <PostListPage />
+    element: <SinglePostPage />
   },
 
   {
